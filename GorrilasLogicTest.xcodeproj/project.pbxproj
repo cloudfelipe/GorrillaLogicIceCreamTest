@@ -9,12 +9,30 @@
 /* Begin PBXBuildFile section */
 		864B4F8A25830E9900539590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4F8925830E9900539590 /* AppDelegate.swift */; };
 		864B4F8C25830E9900539590 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4F8B25830E9900539590 /* SceneDelegate.swift */; };
-		864B4F8E25830E9900539590 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4F8D25830E9900539590 /* ViewController.swift */; };
+		864B4F8E25830E9900539590 /* IceCreamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4F8D25830E9900539590 /* IceCreamListViewController.swift */; };
 		864B4F9125830E9900539590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864B4F8F25830E9900539590 /* Main.storyboard */; };
 		864B4F9325830E9A00539590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864B4F9225830E9A00539590 /* Assets.xcassets */; };
 		864B4F9625830E9A00539590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864B4F9425830E9A00539590 /* LaunchScreen.storyboard */; };
 		864B4FA125830E9A00539590 /* GorrilasLogicTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4FA025830E9A00539590 /* GorrilasLogicTestTests.swift */; };
 		864B4FAC25830E9A00539590 /* GorrilasLogicTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4FAB25830E9A00539590 /* GorrilasLogicTestUITests.swift */; };
+		864B4FBB258312B100539590 /* IceCreamListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4FBA258312B100539590 /* IceCreamListPresenter.swift */; };
+		864B4FBC258312B100539590 /* IceCreamListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4FBA258312B100539590 /* IceCreamListPresenter.swift */; };
+		864B4FBE258312E400539590 /* IceCreamListContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4FBD258312E400539590 /* IceCreamListContracts.swift */; };
+		864B4FBF258312E400539590 /* IceCreamListContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4FBD258312E400539590 /* IceCreamListContracts.swift */; };
+		864B4FC2258313F500539590 /* GetIceCreamListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4FC1258313F500539590 /* GetIceCreamListUseCase.swift */; };
+		864B4FC3258313F500539590 /* GetIceCreamListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4FC1258313F500539590 /* GetIceCreamListUseCase.swift */; };
+		864B4FC72583145900539590 /* IceCreamRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4FC62583145900539590 /* IceCreamRepository.swift */; };
+		864B4FC82583145900539590 /* IceCreamRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4FC62583145900539590 /* IceCreamRepository.swift */; };
+		864B4FCA2583155700539590 /* IceCreamService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4FC92583155700539590 /* IceCreamService.swift */; };
+		864B4FCB2583155700539590 /* IceCreamService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4FC92583155700539590 /* IceCreamService.swift */; };
+		864B4FCD258315BF00539590 /* ServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4FCC258315BF00539590 /* ServiceClient.swift */; };
+		864B4FCE258315BF00539590 /* ServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B4FCC258315BF00539590 /* ServiceClient.swift */; };
+		8654ACD125831E31009EB069 /* IceCreamCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8654ACD025831E31009EB069 /* IceCreamCollectionCell.swift */; };
+		8654ACD3258320EC009EB069 /* IceCream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8654ACD2258320EC009EB069 /* IceCream.swift */; };
+		8654ACD525832385009EB069 /* IceCreamCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8654ACD425832385009EB069 /* IceCreamCoordinator.swift */; };
+		8654ACD8258335E8009EB069 /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8654ACD7258335E8009EB069 /* OrderDetailViewController.swift */; };
+		8654ACDA25833752009EB069 /* OrderDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8654ACD925833752009EB069 /* OrderDetailPresenter.swift */; };
+		8654ACDC25833A1E009EB069 /* OrderDetailContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8654ACDB25833A1E009EB069 /* OrderDetailContracts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +56,7 @@
 		864B4F8625830E9900539590 /* GorrilasLogicTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GorrilasLogicTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		864B4F8925830E9900539590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		864B4F8B25830E9900539590 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		864B4F8D25830E9900539590 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		864B4F8D25830E9900539590 /* IceCreamListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamListViewController.swift; sourceTree = "<group>"; };
 		864B4F9025830E9900539590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		864B4F9225830E9A00539590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		864B4F9525830E9A00539590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +67,18 @@
 		864B4FA725830E9A00539590 /* GorrilasLogicTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GorrilasLogicTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		864B4FAB25830E9A00539590 /* GorrilasLogicTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GorrilasLogicTestUITests.swift; sourceTree = "<group>"; };
 		864B4FAD25830E9A00539590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864B4FBA258312B100539590 /* IceCreamListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamListPresenter.swift; sourceTree = "<group>"; };
+		864B4FBD258312E400539590 /* IceCreamListContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamListContracts.swift; sourceTree = "<group>"; };
+		864B4FC1258313F500539590 /* GetIceCreamListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetIceCreamListUseCase.swift; sourceTree = "<group>"; };
+		864B4FC62583145900539590 /* IceCreamRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamRepository.swift; sourceTree = "<group>"; };
+		864B4FC92583155700539590 /* IceCreamService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamService.swift; sourceTree = "<group>"; };
+		864B4FCC258315BF00539590 /* ServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceClient.swift; sourceTree = "<group>"; };
+		8654ACD025831E31009EB069 /* IceCreamCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamCollectionCell.swift; sourceTree = "<group>"; };
+		8654ACD2258320EC009EB069 /* IceCream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCream.swift; sourceTree = "<group>"; };
+		8654ACD425832385009EB069 /* IceCreamCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamCoordinator.swift; sourceTree = "<group>"; };
+		8654ACD7258335E8009EB069 /* OrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
+		8654ACD925833752009EB069 /* OrderDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailPresenter.swift; sourceTree = "<group>"; };
+		8654ACDB25833A1E009EB069 /* OrderDetailContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailContracts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +131,13 @@
 			children = (
 				864B4F8925830E9900539590 /* AppDelegate.swift */,
 				864B4F8B25830E9900539590 /* SceneDelegate.swift */,
-				864B4F8D25830E9900539590 /* ViewController.swift */,
+				864B4FC52583143E00539590 /* Services */,
+				864B4FC42583143400539590 /* Repositories */,
+				864B4FC0258313AF00539590 /* UseCases */,
+				864B4FB92583129400539590 /* IceCreamList */,
 				864B4F8F25830E9900539590 /* Main.storyboard */,
 				864B4F9225830E9A00539590 /* Assets.xcassets */,
+				8654ACD6258335D2009EB069 /* OrderDetail */,
 				864B4F9425830E9A00539590 /* LaunchScreen.storyboard */,
 				864B4F9725830E9A00539590 /* Info.plist */,
 			);
@@ -126,6 +160,54 @@
 				864B4FAD25830E9A00539590 /* Info.plist */,
 			);
 			path = GorrilasLogicTestUITests;
+			sourceTree = "<group>";
+		};
+		864B4FB92583129400539590 /* IceCreamList */ = {
+			isa = PBXGroup;
+			children = (
+				864B4FBD258312E400539590 /* IceCreamListContracts.swift */,
+				864B4F8D25830E9900539590 /* IceCreamListViewController.swift */,
+				8654ACD025831E31009EB069 /* IceCreamCollectionCell.swift */,
+				864B4FBA258312B100539590 /* IceCreamListPresenter.swift */,
+				8654ACD425832385009EB069 /* IceCreamCoordinator.swift */,
+			);
+			path = IceCreamList;
+			sourceTree = "<group>";
+		};
+		864B4FC0258313AF00539590 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				864B4FC1258313F500539590 /* GetIceCreamListUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		864B4FC42583143400539590 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				864B4FC62583145900539590 /* IceCreamRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		864B4FC52583143E00539590 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				864B4FCC258315BF00539590 /* ServiceClient.swift */,
+				864B4FC92583155700539590 /* IceCreamService.swift */,
+				8654ACD2258320EC009EB069 /* IceCream.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8654ACD6258335D2009EB069 /* OrderDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8654ACDB25833A1E009EB069 /* OrderDetailContracts.swift */,
+				8654ACD7258335E8009EB069 /* OrderDetailViewController.swift */,
+				8654ACD925833752009EB069 /* OrderDetailPresenter.swift */,
+			);
+			path = OrderDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +341,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				864B4F8E25830E9900539590 /* ViewController.swift in Sources */,
+				8654ACD8258335E8009EB069 /* OrderDetailViewController.swift in Sources */,
+				864B4F8E25830E9900539590 /* IceCreamListViewController.swift in Sources */,
 				864B4F8A25830E9900539590 /* AppDelegate.swift in Sources */,
+				8654ACD3258320EC009EB069 /* IceCream.swift in Sources */,
+				864B4FCA2583155700539590 /* IceCreamService.swift in Sources */,
+				8654ACDC25833A1E009EB069 /* OrderDetailContracts.swift in Sources */,
+				864B4FBE258312E400539590 /* IceCreamListContracts.swift in Sources */,
+				8654ACDA25833752009EB069 /* OrderDetailPresenter.swift in Sources */,
+				864B4FC72583145900539590 /* IceCreamRepository.swift in Sources */,
 				864B4F8C25830E9900539590 /* SceneDelegate.swift in Sources */,
+				8654ACD525832385009EB069 /* IceCreamCoordinator.swift in Sources */,
+				8654ACD125831E31009EB069 /* IceCreamCollectionCell.swift in Sources */,
+				864B4FBB258312B100539590 /* IceCreamListPresenter.swift in Sources */,
+				864B4FCD258315BF00539590 /* ServiceClient.swift in Sources */,
+				864B4FC2258313F500539590 /* GetIceCreamListUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +363,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864B4FCE258315BF00539590 /* ServiceClient.swift in Sources */,
+				864B4FCB2583155700539590 /* IceCreamService.swift in Sources */,
 				864B4FA125830E9A00539590 /* GorrilasLogicTestTests.swift in Sources */,
+				864B4FC3258313F500539590 /* GetIceCreamListUseCase.swift in Sources */,
+				864B4FBF258312E400539590 /* IceCreamListContracts.swift in Sources */,
+				864B4FBC258312B100539590 /* IceCreamListPresenter.swift in Sources */,
+				864B4FC82583145900539590 /* IceCreamRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
